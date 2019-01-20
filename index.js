@@ -33,6 +33,6 @@ function addNewLiOnClick(){
 //   })
 // }
 //
-// function resetInput(){
-//   document.querySelector('input').value = ''
-// }
+function resetInput(){
+  document.querySelector('input').value = ''
+}
