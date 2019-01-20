@@ -24,15 +24,15 @@ function addNewLiOnClick(){
     resetInput();
   })
 }
-//
-// function clearEmployeeListOnLinkClick(){
-//   let link=document.querySelector("a");
-//   let ul=document.querySelector("ul");
-//   link.addEventListener("click", function(e) {
-//     link.innerHTML='';
-//   })
-// }
-//
+
+function clearEmployeeListOnLinkClick(){
+  let link=document.querySelector("a");
+  let ul=document.querySelector("ul");
+  link.addEventListener("click", function(e) {
+    link.innerHTML='';
+  })
+}
+
 function resetInput(){
   document.querySelector('input').value = ''
 }
