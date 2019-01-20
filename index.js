@@ -16,13 +16,13 @@ function addNewElementAsLi(){
   let employeeName=retrieveEmployeeInformation();
   document.querySelector('.employee-list').insertAdjacentHTML('beforeend', `<li>${employeeName}</li>`)
 }
-//
-// function addNewLiOnClick(){
-//   let submit=document.querySelector('input [type="submit"]');
-//   submit.addEventListener("click", function(e) {
-//     addNewElementAsLi();
-//   })
-// }
+
+function addNewLiOnClick(){
+  let submit=document.querySelector('input [type="submit"]');
+  submit.addEventListener("click", function(e) {
+    addNewElementAsLi();
+  })
+}
 //
 // function clearEmployeeListOnLinkClick(){
 //   let link=document.querySelector("a");
